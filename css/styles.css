@@ -1,39 +1,65 @@
+/* ===== FELONS PODCAST — DARK MODE ===== */
+
 body {
   margin: 0;
   padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
   background-color: #0f0f0f;
   color: #f1f1f1;
-  font-family: Arial, sans-serif;
+  line-height: 1.6;
 }
 
+/* Layout */
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+/* Headings */
 h1 {
+  font-size: 2.8rem;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin-top: 40px;
+  margin-bottom: 10px;
   color: #e50914;
 }
-.cta-buttons {
-  margin-top: 25px;
-  display: flex;
-  gap: 15px;
-  flex-wrap: wrap;
+
+/* Paragraphs */
+p {
+  font-size: 1.05rem;
+  max-width: 800px;
 }
 
-.cta {
-  padding: 12px 20px;
-  background: #222;
-  color: #fff;
+/* Buttons */
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 22px;
+  background-color: #e50914;
+  color: #ffffff;
   text-decoration: none;
-  border-radius: 6px;
-  font-weight: 600;
-  transition: 0.3s ease;
+  font-weight: bold;
+  border-radius: 4px;
 }
 
-.cta.primary {
-  background: #b30000;
+.btn:hover {
+  background-color: #b20710;
 }
 
-.cta:hover {
-  background: #444;
-}
+/* Section spacing */
 section {
-  margin-top: 120px;
-  padding-top: 40px;
+  margin-bottom: 60px;
+}
+
+/* Footer */
+footer {
+  border-top: 1px solid #333;
+  padding-top: 20px;
+  font-size: 0.9rem;
+  color: #aaa;
 }
